@@ -31,7 +31,7 @@ struct ContentView: View {
             VStack (alignment: .leading) {
                 Text("SwiftUI")
                     .font(.system(size: 25))
-                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                    .fontWeight(.bold)
                 
                 Text("Better Apps. Less code")
                     .font(.system(size: 16))
@@ -39,7 +39,7 @@ struct ContentView: View {
                 
                 
                 Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
-                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                    .fontWeight(.bold)
                     .font(.system(size: 30))
                 
             }
