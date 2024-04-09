@@ -55,3 +55,5 @@ struct ContentView: View {
 ```
 ## Keyboard shortcut
 Use `Ctrl` + `Command` + `Spacebar` to launch the `emojis` palette:<br>
+![swiftui-emojis-and-symbols-03](https://github.com/danielurra/swift-ui-emojis-and-symbols/assets/51704179/e0fadd43-9daa-43f6-aaad-3923dd72914b)
+
