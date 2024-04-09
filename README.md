@@ -53,3 +53,5 @@ struct ContentView: View {
 }
 
 ```
+## Keyboard shortcut
+Use `Ctrl` + `Command` + `Spacebar` to launch the `emojis` palette:<br>
