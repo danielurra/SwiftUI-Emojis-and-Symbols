@@ -5,3 +5,51 @@ Use the `Edit` drop down menu:<br>
 
 ## Emojis and Symbols 
 ![swiftui-emojis-and-symbols-02](https://github.com/danielurra/swift-ui-emojis-and-symbols/assets/51704179/d10b3101-cf09-46d5-a5cc-4142ae6e2640)
+
+## Grab the code
+```swift
+//
+//  ContentView.swift
+//  Declarative Programming DeStefano
+//
+//  Created by Eusebio Taba on 4/7/24.
+//
+
+import SwiftUI
+
+struct ContentView: View {
+    
+    @State private var textString: String = ""
+    
+    var 🐭🐭
+    
+    var body: some View {
+        HStack {
+            Image("swiftui-icon-512x512px").resizable()
+                .frame(width: 80, height: 80)
+
+            VStack (alignment: .leading) {
+                Text("SwiftUI")
+                    .font(.system(size: 25))
+                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                
+                Text("Better Apps. Less code")
+                    .font(.system(size: 16))
+                    .frame(height: 10)
+                
+                
+                Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
+                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                    .font(.system(size: 30))
+                
+            }
+//            .padding(.trailing)
+        }
+    }
+}
+
+#Preview {
+    ContentView()
+}
+
+```
