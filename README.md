@@ -38,7 +38,7 @@ struct ContentView: View {
                     .frame(height: 10)
                 
                 
-                Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
+                Text("Placeholder")
                     .fontWeight(.bold)
                     .font(.system(size: 30))
                 
